@@ -1,3 +1,3 @@
-# Example for Spec-By-Ex-Agile-Dashboard File Structure
+# Example for Specification by Example Extension for Scenarioo
 
-Example file structure as input for new sxcenarioo Spec-By-Ex Agile Extension.
+Example file structure as input for new Scenarioo extension for Spec-By-Ex Agile Dashboard.
