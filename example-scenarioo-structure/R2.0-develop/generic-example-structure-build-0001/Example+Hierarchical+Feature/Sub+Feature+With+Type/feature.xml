@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<feature xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
+    <name>Sub Feature With Type</name>
+    <type>Story</type>
+    <description>A feature can have an optional type (default type is "feature"), to model special feature types like "story", "epic", "use case" or whatever a project wants to have as feature types.</description>
+    <labels/>
+</feature>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<feature xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
+    <name>Sub Sub Feature With Type</name>
+    <type>Story</type>
+    <description>sub sub feature as a child of a sub feature. They can as well have a type (optional).</description>
+    <labels/>
+</feature>

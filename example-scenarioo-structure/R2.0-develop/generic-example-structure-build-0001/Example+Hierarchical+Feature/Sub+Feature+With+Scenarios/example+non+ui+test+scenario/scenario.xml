@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<scenario xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
+    <name>example non ui test scenario</name>
+    <description>Just an example test case of a non ui test (e.g. a simple unit test).</description>
+    <status>success</status>
+</scenario>

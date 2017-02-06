@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<feature xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
+    <name>Minimal Sub Feature</name>
+    <description>Just an example of a simple minimal sub feature.</description>
+    <labels/>
+</feature>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<feature xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
+    <name>Sub Feature With Scenarios</name>
+    <description>Any feature can contain scenarios (=test cases demonstrating and testing this feature).</description>
+    <labels/>
+</feature>
