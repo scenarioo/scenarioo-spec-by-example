@@ -1,0 +1,5 @@
+# npm tooling
+node_modules
+
+# gitbook docu build output
+_book
