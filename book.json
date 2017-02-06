@@ -1,0 +1,20 @@
+{
+  "gitbook": "3.2.2",
+  "plugins": [
+    "-fontsettings",
+    "edit-link",
+    "github",
+    "expandable-chapters",
+    "puml"
+  ],
+  "title": "Scenarioo Specification By Example  - Example",
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/scenarioo/scenarioo-spec-by-example/edit/master/docs",
+      "label": "Edit This Page"
+    },
+    "github": {
+      "url": "https://github.com/scenarioo/scenarioo-spec-by-example/"
+    }
+  }
+}
