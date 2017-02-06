@@ -10,6 +10,7 @@ Cross references to [another feature](./feature-2.md) in documentation are easil
 
 You can even link directly to the paragraph describing a [special aspect of a feature](./feature-2.md#special-aspect-paragraph)
 
-## Special Aspect Paragraph
+## Stories
 
-A special paragraph describing special aspect of this feature.
+* #1
+* #2

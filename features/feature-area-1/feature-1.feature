@@ -14,9 +14,14 @@ Feature: View and browse sauce
       | Picture     | <Picture>     |
       | Price       | <Price>       |
 
-    Examples:
+    @#1
+    Examples: Sudden Death Sauces
       | Name                                         | Description                             | Picture  | Price  |
       | Sudden Death Sauce                           | As my Chilipals know, I am never one... | pic1.jpg | $10.99 |
       | Sweet Death Sauce                            | The perfect topper for chicken...       | pic2.jpg | $10.99 |
+
+    @#2
+    Examples: Extra Sauces
+      | Name                                         | Description                             | Picture  | Price  |
       | Green Ghost                                  | Made with Naga Bhut Jolokia...          | pic3.jpg | $9.99  |
       | Blazin' Saddle XXX Hot Habanero Pepper Sauce | You bet your boots, this hot sauce ...  | pic4.jpg | $4.99  |
