@@ -12,5 +12,5 @@ You can even link directly to the paragraph describing a [special aspect of a fe
 
 ## Stories
 
-* #1
-* #2
+* [Issue #1](scenarioo/scenarioo-spec-by-example#1)
+* [Issue #2](scenarioo/scenarioo-spec-by-example#2)
