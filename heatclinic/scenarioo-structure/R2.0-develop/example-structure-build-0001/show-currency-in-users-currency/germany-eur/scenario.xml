@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<scenario xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
+    <name>germany-eur</name>
+    <description>Test scenarios can also be gherkin tests that are allready executed.</description>
+    <status>FAILED</status>
+    <details>
+        <property>
+            <name>errorMsg</name>
+            <value>124 expected to be 230</value>
+        </property>
+        <property>
+            <name>errorLog</name>
+            <value>124 expected to be 230 - stack trace:
+             ....
+            </value>
+        </property>
+    </details>
+</scenario>

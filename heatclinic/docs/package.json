@@ -1,0 +1,17 @@
+{
+  "name": "heatclinic-docs",
+  "version": "1.0.0",
+  "description": "Gitbook Documentation of Heatclinic",
+  "main": "index.js",
+  "scripts": {
+    "install-tools": "npm install -g gitbook-cli ebook-convert && echo 'you have to run `gitbook install` from global tooling'.",
+    "build": "echo 'you have to run `gitbook build` from global tooling.'",
+    "serve": "echo 'you have to run `gitbook serve` from global tooling.'",
+    "pdf": "echo 'to generate pdf use `gitbook pdf`."
+  },
+  "author": "Focus Group `Specification by Example`",
+  "devDependencies": {
+    "gitbook": "^3.2.2",
+    "gitbook-cli": "^2.3.0"
+  }
+}
