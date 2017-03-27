@@ -3,4 +3,8 @@
     <name>Example Hierarchical Feature</name>
     <description>Example for new feature structure with several features of different kinds.</description>
     <labels/>
+    <children>
+        <feature name="Hierarchical Sub Feature"></feature>
+        <feature name="Minimal Sub Feature"></feature>
+    </children>
 </feature>
