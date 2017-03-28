@@ -3,3 +3,25 @@ node_modules
 
 # gitbook docu build output
 _book
+
+classes/
+bin/
+*~
+target/
+.metadata
+.sass-cache
+.tmp
+dist/
+node_modules/
+app/bower_components
+.idea
+.vm-update.log
+.gradle
+.project
+/build
+*hs_err*.log
+/build
+.classpath
+.settings
+*.iml
+npm-debug.log

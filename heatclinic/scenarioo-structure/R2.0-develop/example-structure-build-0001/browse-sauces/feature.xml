@@ -2,5 +2,7 @@
 <feature xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
     <name>Browse Sauces</name>
     <description>Description for feature 'browse sauces'</description>
+    <subfeature>show-currency-in-users-currency</subfeature>
+    <subfeature>view-details-for-sauce</subfeature>
     <labels/>
 </feature>

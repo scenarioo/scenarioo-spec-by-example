@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <feature xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
-    <name>show-currency-in-users-currency</name>
-    <description>Customer sees sauce with price and correct currency</description>
+    <name>View Details for Sauce</name>
+    <description>Customer sees details for a selected Sauce such as product name, price and a description</description>
     <labels/>
 </feature>
