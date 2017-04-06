@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<branch xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
+    <name>version1</name>
+    <description>Just a sample branch of product version 1. Contains some concrete sample builds of the whole scenarioo documentation.</description>
+    <details/>
+</branch>

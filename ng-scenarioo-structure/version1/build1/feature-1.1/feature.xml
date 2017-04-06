@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<feature xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
+    <name>feature-1.1</name>
+    <description>An example sub feature inside a parent feature with usual content (scenarios, markdown, gherkin feature files, ...)</description>
+    <parentFeature>feature-1</parentFeature>
+    <labels/>
+    <milestone>V1.0</milestone>
+    <orderIndex>1</orderIndex>
+    <docFile>
+        <path>features/browse-sauces/show-currency-in-users-currency.md</path>
+        <links>
+            <link>
+                <name>git</name>
+                <url>https://github.com/scenarioo/scenarioo-spec-by-example/blob/master/heatclinic/docs/features/browse-sauces/show-currency-in-users-currency.md</url>
+            </link>
+            <link>
+                <name>edit</name>
+                <url>https://github.com/scenarioo/scenarioo-spec-by-example/edit/master/heatclinic/docs/features/browse-sauces/show-currency-in-users-currency.md</url>
+            </link>
+        </links>
+    </docFile>
+    <specFile>
+        <path>features/browse-sauces/show-currency-in-users-currency.feature</path>
+        <links>
+            <link>
+                <name>git</name>
+                <url>https://github.com/scenarioo/scenarioo-spec-by-example/blob/master/heatclinic/docs/features/browse-sauces/show-currency-in-users-currency.feature</url>
+            </link>
+            <link>
+                <name>edit</name>
+                <url>https://github.com/scenarioo/scenarioo-spec-by-example/edit/master/heatclinic/docs/features/browse-sauces/show-currency-in-users-currency.feature</url>
+            </link>
+        </links>
+    </specFile>
+</feature>

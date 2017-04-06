@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<feature xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
+    <name>feature-1</name>
+    <description>A example of a root feature with sub features that contains even a dummy scenario</description>
+    <labels/>
+    <orderIndex>1</orderIndex>
+    <docFile>
+        <path>features/browse-sauces/README.md</path>
+        <links>
+            <link>
+                <name>git</name>
+                <url>https://github.com/scenarioo/scenarioo-spec-by-example/blob/master/heatclinic/docs/README.md</url>
+            </link>
+            <link>
+                <name>edit</name>
+                <url>https://github.com/scenarioo/scenarioo-spec-by-example/edit/master/heatclinic/docs/README.md</url>
+            </link>
+        </links>
+    </docFile>
+</feature>

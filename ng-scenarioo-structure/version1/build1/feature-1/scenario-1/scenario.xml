@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<scenario xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
+    <name>scenario-1</name>
+    <description>A simple scenario without steps, but with some other report as content</description>
+    <status>SUCCESS</status>
+    <docFile>
+        <path>reports/sample-test-output.html</path>
+        <links>
+            <link>
+                <name>git</name>
+                <url>https://github.com/scenarioo/scenarioo-spec-by-example/blob/master/heatclinic/docs/README.md</url>
+            </link>
+            <link>
+                <name>edit</name>
+                <url>https://github.com/scenarioo/scenarioo-spec-by-example/blob/master/heatclinic/docs/README.md</url>
+            </link>
+        </links>
+    </docFile>
+</scenario>
