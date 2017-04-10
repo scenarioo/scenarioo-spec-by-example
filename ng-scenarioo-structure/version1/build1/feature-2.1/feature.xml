@@ -4,4 +4,6 @@
     <description>An example sub feature inside a parent feature</description>
     <parentFeature>feature-2</parentFeature>
     <labels/>
+    <milestone>2.0</milestone>
+    <orderIndex>1</orderIndex>
 </feature>

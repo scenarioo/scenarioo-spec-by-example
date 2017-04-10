@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <feature xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
     <name>feature-2</name>
-    <description>A example of a root feature with sub features</description>
+    <description>Another example of a root feature with sub features.
+        This one does not contain any scenarios.</description>
     <labels/>
 </feature>
