@@ -3,5 +3,23 @@
     <name>feature-1.2</name>
     <description>An example sub feature inside a parent feature</description>
     <parentFeature>feature-1</parentFeature>
-    <labels/>
+    <labels>
+        <label>backoffice</label>
+        <label>email</label>
+    </labels>
+    <milestone>1.0</milestone>
+    <orderIndex>2</orderIndex>
+    <specFile>
+        <path>features/browse-sauces/SpecCouldAlsoBeJUnitFile.java</path>
+        <links>
+            <link>
+                <name>git</name>
+                <url>https://github.com/scenarioo/scenarioo-spec-by-example/blob/master/heatclinic/docs/features/browse-sauces/SpecCouldAlsoBeJUnitFile.java</url>
+            </link>
+            <link>
+                <name>edit</name>
+                <url>https://github.com/scenarioo/scenarioo-spec-by-example/edit/master/heatclinic/docs/features/browse-sauces/SpecCouldAlsoBeJUnitFile.java</url>
+            </link>
+        </links>
+    </specFile>
 </feature>

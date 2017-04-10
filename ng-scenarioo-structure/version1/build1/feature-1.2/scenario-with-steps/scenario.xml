@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<scenario xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
+    <name>scenario-with-steps</name>
+    <description>Just a dummy example to demonstrate a scenario with steps (but without screenshots).
+        Those steps can as well reference to the spec/test source file and can like that e.g. mark where a test passed or faied.</description>
+    <status>FAILED</status>
+    <specLineNumber>12</specLineNumber>
+    <labels>
+        <label>happy</label>
+    </labels>
+</scenario>

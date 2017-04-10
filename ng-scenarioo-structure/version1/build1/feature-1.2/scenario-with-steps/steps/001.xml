@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<step xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
+    <stepDescription>
+        <index>1</index>
+        <status>failed</status>
+        <title>assert outcome</title>
+        <labels>
+            <label>then</label>
+        </labels>
+        <specLineNumber>17</specLineNumber>
+        <errorMessage>Unexpected Outcome: Hello World</errorMessage>
+        <errorStackTrace>
+            at org.junit.Assert.assertEquals(Assert.java:115)
+            at org.junit.Assert.assertEquals(Assert.java:144)
+            at org.scenarioo.uitest.example.testcases.FindPageUITest.find_page_title_unique_directly(FindPageUITest.java:88)
+            at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+            at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+            at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+            at java.lang.reflect.Method.invoke(Method.java:497)
+            at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+            at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+            at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+            at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+            at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+            at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+            at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+            at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+            at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+            at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+            at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+            at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+            at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+            at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+            at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+            at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+            at org.scenarioo.uitest.example.infrastructure.UseCaseDocuWritingRule$1.evaluate(UseCaseDocuWritingRule.java:72)
+            at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+            at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+            at org.junit.runners.Suite.runChild(Suite.java:128)
+            at org.junit.runners.Suite.runChild(Suite.java:27)
+            at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+            at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+            at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+            at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+            at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+            at org.scenarioo.uitest.example.infrastructure.MultipleBuildsRule$1.evaluate(MultipleBuildsRule.java:35)
+            at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+        </errorStackTrace>
+        <errorLog>
+            org.junit.ComparisonFailure:
+            Expected :Hi Scenarioo
+            Actual   :Hello World
+            &lt;Click to see difference&gt;
+        </errorLog>
+    </stepDescription>
+
+
+    <metadata>
+        <details>
+            <entry>
+                <key>Dummy Details Data</key>
+                <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">Following just some dummy details data to test this is still working</value>
+            </entry>
+            <entry>
+                <key>Call Tree</key>
+                <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectTreeNode">
+                    <item xsi:type="objectDescription">
+                        <name>http:__www.wikipedia.org</name>
+                        <type>httpCall</type>
+                        <details/>
+                    </item>
+                    <details/>
+                    <children>
+                        <item xsi:type="objectDescription">
+                            <name>example.action.StartInitAction</name>
+                            <type>uiAction</type>
+                            <details>
+                                <entry>
+                                    <key>description</key>
+                                    <value xsi:type="xs:string">Initializer for wiki, creates user session and
+                                        initializes the menu
+                                    </value>
+                                </entry>
+                            </details>
+                        </item>
+                        <details/>
+                        <children>
+                            <item xsi:type="objectDescription">
+                                <name>UserSessionBean.loadUserSessionData</name>
+                                <type>businessOperation</type>
+                                <details>
+                                    <entry>
+                                        <key>description</key>
+                                        <value xsi:type="xs:string">Load session data for current user</value>
+                                    </entry>
+                                </details>
+                            </item>
+                            <details/>
+                            <children>
+                                <item xsi:type="objectDescription">
+                                    <name>
+                                        AuthenticationService.checkUserAuthenticatedServiceOperationWithAVeryVeryVeryUglyAndLongOperationNameJustToCheckHandlingOfLongNames
+                                    </name>
+                                    <type>service</type>
+                                    <details>
+                                        <entry>
+                                            <key>description</key>
+                                            <value xsi:type="xs:string">Service to check via LDAP the authentication for
+                                                a user for given operation.
+                                            </value>
+                                        </entry>
+                                        <entry>
+                                            <key>realName</key>
+                                            <value xsi:type="xs:string">LDAP:AuthenticationService</value>
+                                        </entry>
+                                    </details>
+                                </item>
+                                <details/>
+                            </children>
+                        </children>
+                        <children>
+                            <item xsi:type="objectDescription">
+                                <name>MenuSessionBean.load</name>
+                                <type>businessOperation</type>
+                                <details>
+                                    <entry>
+                                        <key>description</key>
+                                        <value xsi:type="xs:string">Load current menu page index</value>
+                                    </entry>
+                                </details>
+                            </item>
+                            <details/>
+                            <children>
+                                <item xsi:type="objectDescription">
+                                    <name>MenuService.loadMenu</name>
+                                    <type>service</type>
+                                    <details>
+                                        <entry>
+                                            <key>description</key>
+                                            <value xsi:type="xs:string">Service to load current wiki menu.</value>
+                                        </entry>
+                                        <entry>
+                                            <key>realName</key>
+                                            <value xsi:type="xs:string">MENUSYS:LoadMenuService.load</value>
+                                        </entry>
+                                    </details>
+                                </item>
+                                <details/>
+                            </children>
+                        </children>
+                    </children>
+                    <children>
+                        <item xsi:type="objectDescription">
+                            <name>example.action.SearchInitAction</name>
+                            <type>uiAction</type>
+                            <details>
+                                <entry>
+                                    <key>description</key>
+                                    <value xsi:type="xs:string">Initializer to init the search page</value>
+                                </entry>
+                            </details>
+                        </item>
+                        <details/>
+                    </children>
+                </value>
+            </entry>
+            <entry>
+                <key>List</key>
+                <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectList">
+                    <items xsi:type="xs:string">Listentry 0</items>
+                    <items xsi:type="xs:string">Listentry 1</items>
+                    <items xsi:type="xs:string">Listentry 2</items>
+                    <items xsi:type="xs:string">Listentry 3</items>
+                    <items xsi:type="xs:string">Listentry 4</items>
+                </value>
+            </entry>
+        </details>
+    </metadata>
+
+</step>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<step xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.scenarioo.org/scenarioo">
+    <stepDescription>
+        <index>0</index>
+        <status>success</status>
+        <title>performAction</title>
+        <labels>
+            <label>when</label>
+        </labels>
+        <specLineNumber>16</specLineNumber>
+    </stepDescription>
+
+
+    <metadata>
+        <details>
+            <entry>
+                <key>Dummy Details Data</key>
+                <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">Following just some dummy details data to test this is still working</value>
+            </entry>
+            <entry>
+                <key>Call Tree</key>
+                <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectTreeNode">
+                    <item xsi:type="objectDescription">
+                        <name>http:__www.wikipedia.org</name>
+                        <type>httpCall</type>
+                        <details/>
+                    </item>
+                    <details/>
+                    <children>
+                        <item xsi:type="objectDescription">
+                            <name>example.action.StartInitAction</name>
+                            <type>uiAction</type>
+                            <details>
+                                <entry>
+                                    <key>description</key>
+                                    <value xsi:type="xs:string">Initializer for wiki, creates user session and
+                                        initializes the menu
+                                    </value>
+                                </entry>
+                            </details>
+                        </item>
+                        <details/>
+                        <children>
+                            <item xsi:type="objectDescription">
+                                <name>UserSessionBean.loadUserSessionData</name>
+                                <type>businessOperation</type>
+                                <details>
+                                    <entry>
+                                        <key>description</key>
+                                        <value xsi:type="xs:string">Load session data for current user</value>
+                                    </entry>
+                                </details>
+                            </item>
+                            <details/>
+                            <children>
+                                <item xsi:type="objectDescription">
+                                    <name>
+                                        AuthenticationService.checkUserAuthenticatedServiceOperationWithAVeryVeryVeryUglyAndLongOperationNameJustToCheckHandlingOfLongNames
+                                    </name>
+                                    <type>service</type>
+                                    <details>
+                                        <entry>
+                                            <key>description</key>
+                                            <value xsi:type="xs:string">Service to check via LDAP the authentication for
+                                                a user for given operation.
+                                            </value>
+                                        </entry>
+                                        <entry>
+                                            <key>realName</key>
+                                            <value xsi:type="xs:string">LDAP:AuthenticationService</value>
+                                        </entry>
+                                    </details>
+                                </item>
+                                <details/>
+                            </children>
+                        </children>
+                        <children>
+                            <item xsi:type="objectDescription">
+                                <name>MenuSessionBean.load</name>
+                                <type>businessOperation</type>
+                                <details>
+                                    <entry>
+                                        <key>description</key>
+                                        <value xsi:type="xs:string">Load current menu page index</value>
+                                    </entry>
+                                </details>
+                            </item>
+                            <details/>
+                            <children>
+                                <item xsi:type="objectDescription">
+                                    <name>MenuService.loadMenu</name>
+                                    <type>service</type>
+                                    <details>
+                                        <entry>
+                                            <key>description</key>
+                                            <value xsi:type="xs:string">Service to load current wiki menu.</value>
+                                        </entry>
+                                        <entry>
+                                            <key>realName</key>
+                                            <value xsi:type="xs:string">MENUSYS:LoadMenuService.load</value>
+                                        </entry>
+                                    </details>
+                                </item>
+                                <details/>
+                            </children>
+                        </children>
+                    </children>
+                    <children>
+                        <item xsi:type="objectDescription">
+                            <name>example.action.SearchInitAction</name>
+                            <type>uiAction</type>
+                            <details>
+                                <entry>
+                                    <key>description</key>
+                                    <value xsi:type="xs:string">Initializer to init the search page</value>
+                                </entry>
+                            </details>
+                        </item>
+                        <details/>
+                    </children>
+                </value>
+            </entry>
+            <entry>
+                <key>List</key>
+                <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="objectList">
+                    <items xsi:type="xs:string">Listentry 0</items>
+                    <items xsi:type="xs:string">Listentry 1</items>
+                    <items xsi:type="xs:string">Listentry 2</items>
+                    <items xsi:type="xs:string">Listentry 3</items>
+                    <items xsi:type="xs:string">Listentry 4</items>
+                </value>
+            </entry>
+        </details>
+    </metadata>
+
+</step>
